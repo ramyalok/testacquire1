@@ -1,0 +1,108 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  margin: 0px;
+}
+
+ 
+ 
+.app-menu li {
+  display: inline;
+  padding:6px;
+  font-size: 20px;
+}
+.app-header {
+  font-size: 20px;
+  margin:10px;
+
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.container {
+  width: 100%;
+ 
+  display: flex;
+}
+.material-symbols-outlined {
+  vertical-align: sub;
+
+}
+.app-menu li a {
+  text-decoration: none;
+   
+  padding: 10px 12px;
+  color: #42999e;
+  /* font-size: 18px; */
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.4s all ease;
+}
+.app-menu li a:hover {
+  color: #062628;
+}
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+.btn-contact {
+  background-color: #062628;
+  color: white;
+}
+.btn-contact:hover {
+  background-color: #42999e;
+}
+.img-rad{
+   border-radius:50%;
+}
+.img-rad1{
+   border-radius:20%;
+}
+.img{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  i
+}
+/* banner */
+.banner {
+  background-image: url('images/bg.png');
+  background-size: cover;
+  height: calc(100vh - 64px);
+}
+.w-50 {
+  width: 50%;
+}
+.w-50 h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+/* about us */
+.ms-2 {
+  margin-left: 2rem;
+}
+.about-title {
+  font-size: 20px;
+}
+.text-primary {
+  color: #42999e;
+}
+.mb-2 {
+  margin-bottom: 1.2rem;
+}
